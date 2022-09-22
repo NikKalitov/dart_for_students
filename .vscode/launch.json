@@ -8,7 +8,9 @@
         {
             "name": "dart_for_students",
             "request": "launch",
-            "type": "dart"
-        }
+            "type": "dart",
+            "program": "lib/dart_for_students.dart"
+        },
+        
     ]
 }
