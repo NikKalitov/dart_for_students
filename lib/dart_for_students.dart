@@ -2,7 +2,10 @@ void main() {
   // dataTypes();
   // nullSafety();
   // arithmeticOperations();
-  comparisonOperations();
+  // comparisonOperations();
+  conditionalConstructs();
+  // cycles();
+  // functions();
 }
 
 /// Типы данных
@@ -206,3 +209,11 @@ void comparisonOperations() {
   /// меньше или равно "<="
   // print('a <= b : ${a <= b}');
 }
+
+/// Условные конструкции
+void conditionalConstructs() {}
+
+/// Циклы
+void cycles() {}
+
+void functions() {}
