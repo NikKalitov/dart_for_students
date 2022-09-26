@@ -1,4 +1,4 @@
-import 'package:dart_for_students/classes/test/classes_test.dart';
+import './test/classes_test.dart';
 
 /// Напишите абстрактный класс Creature (Существо).
 /// В нем должны быть nullable поля
@@ -9,6 +9,9 @@ import 'package:dart_for_students/classes/test/classes_test.dart';
 /// Написать класс Dog, который наследуется от Creature.
 /// В классе Dog реализовать nullable поля name типа String и age типа int.
 /// Создать конструктор с именованными полями для класса Dog.
+
+/// Я хз, нужно ли добавлять сюда еще и интерфейсы с миксинами. Это для новичка
+/// жесть полная будет
 
 // abstract class Creature {
 //   int? weight;
