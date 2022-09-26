@@ -23,4 +23,9 @@ void main() {
   //   likesStudying: ,
   //   map: studentMap,
   // );
+
+  /// Самостоятельно создайте переменную customMap типа Map<String, dynamic> и
+  /// проверьте ее подобным же образом, что и studentMap
+  Map<String, dynamic> customMap = {};
+  MapTest.checkMap(name: ,age: ,averageScore: ,likesStudying: , map: customMap,);
 }
