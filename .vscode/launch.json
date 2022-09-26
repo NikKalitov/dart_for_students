@@ -9,7 +9,7 @@
             "name": "dart_for_students",
             "request": "launch",
             "type": "dart",
-            "program": "lib/dart_for_students.dart"
+            "program": "lib/labs_dart_nikita.dart"
         },
         
     ]
