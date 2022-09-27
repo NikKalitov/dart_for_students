@@ -15,10 +15,13 @@ class ForCycleTest {
   }
 
   static void checkingList(List<int> yourList, List<int> listToCompare) {
-    bool isCorrect = false;
+    bool isCorrect = true;
+    if (yourList.isEmpty) {
+      isCorrect = false;
+    }
     for (int i = 0; i < listToCompare.length; i++) {
-      if (listToCompare[i] < 0 && yourList[i] == 2) {
-        isCorrect = true;
+      if (listToCompare[i] < 0 && yourList[i] != 2) {
+        isCorrect = false;
       }
     }
     isCorrect

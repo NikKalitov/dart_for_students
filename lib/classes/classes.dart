@@ -13,30 +13,30 @@ import './test/classes_test.dart';
 /// Я хз, нужно ли добавлять сюда еще и интерфейсы с миксинами. Это для новичка
 /// жесть полная будет
 
-// abstract class Creature {
-//   int? weight;
-//   bool? coldBlooded;
+abstract class Creature {
+  int? weight;
+  bool? coldBlooded;
 
-//   Creature({
-//     this.weight,
-//     this.coldBlooded,
-//   });
+  Creature({
+    this.weight,
+    this.coldBlooded,
+  });
 
-//   String breathe() {
-//     return 'Breathe in, breathe out';
-//   }
-// }
+  String breathe() {
+    return 'Breathe in, breathe out';
+  }
+}
 
-// class Dog extends Creature {
-//   String? name;
-//   int? age;
-//   Dog({
-//     super.weight,
-//     super.coldBlooded,
-//     this.name,
-//     this.age,
-//   });
-// }
+class Dog extends Creature {
+  String? name;
+  int? age;
+  Dog({
+    super.weight,
+    super.coldBlooded,
+    this.name,
+    this.age,
+  });
+}
 
 void main() {
   runTest();
